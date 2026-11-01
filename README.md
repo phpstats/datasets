@@ -15,10 +15,11 @@ $mroz = \Phibble\DataFrame::fromCsv("$data/mroz.csv");
 | [`csv/mroz.csv`](csv/mroz.csv) | 753 | R `carData` package 3.0-6 (`Mroz`) | GPL (≥ 2) |
 | [`csv/sleepstudy.csv`](csv/sleepstudy.csv) | 180 | R `lme4` package 2.0.6 (`sleepstudy`) | GPL (≥ 2) |
 | [`csv/cbpp.csv`](csv/cbpp.csv) | 56 | R `lme4` package 2.0.6 (`cbpp`) | GPL (≥ 2) |
+| [`csv/weather.csv`](csv/weather.csv) | 26,115 | R `nycflights13` package (`weather`) | CC0 |
 
 The files are copied unchanged from the CSV exports in
 [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/), maintained by
-Vincent Arel-Bundock. The license texts are in [`LICENSES`](LICENSES). The
+Vincent Arel-Bundock. The GPL texts are in [`LICENSES`](LICENSES); `weather` is in the public domain under CC0. The
 data remain under their packages' licenses; this repository adds nothing to
 them.
 
@@ -53,6 +54,13 @@ herds of zebu cattle in Ethiopia, over four periods. Lesnoff, M. et al.
 (2004), Within-herd spread of contagious bovine pleuropneumonia in Ethiopian
 highlands, *Preventive Veterinary Medicine* 64, 27–40.
 
+### weather
+
+Hourly weather at the three New York City airports (EWR, JFK, and LGA) in
+2013: temperature, dew point, humidity, wind, precipitation, pressure, and
+visibility, with missing readings left empty. From the Iowa Environmental
+Mesonet, as distributed in `nycflights13` by H. Wickham.
+
 ## Checksums
 
 SHA-256:
@@ -62,4 +70,5 @@ SHA-256:
 e7d618f518d247ce0ef29ff551b28d4c2d260faabad4955cf9164f2908fbd0b5  csv/mroz.csv
 20922ddc87d538bf2344f73d49000eeb2d7e14934b6191a3e071fefc329942c4  csv/sleepstudy.csv
 8919ad586aabfa75fa3b3ece7ad7b398c7b31bf17467f17c304cbec86afa910a  csv/cbpp.csv
+e69580cc3c18070692b6bf2f52e890803a313507c23283b15f06dbbae86451cf  csv/weather.csv
 ```
