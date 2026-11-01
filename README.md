@@ -24,23 +24,31 @@ them.
 
 ## Sources
 
-**mtcars.** Fuel consumption and ten aspects of design and performance for 32
+### mtcars
+
+Fuel consumption and ten aspects of design and performance for 32
 cars (1973–74 models), from the 1974 *Motor Trend* US magazine. Henderson, H.
 V. and Velleman, P. F. (1981), Building multiple regression models
 interactively, *Biometrics* 37, 391–411.
 
-**mroz.** Labor force participation of 753 married women in 1975, from the
+### mroz
+
+Labor force participation of 753 married women in 1975, from the
 Panel Study of Income Dynamics. Mroz, T. A. (1987), The sensitivity of an
 empirical model of married women's hours of work to economic and statistical
 assumptions, *Econometrica* 55, 765–799. Distributed in `carData` by J. Fox,
 S. Weisberg, and B. Price.
 
-**sleepstudy.** Average reaction time per day for 18 subjects in a sleep
+### sleepstudy
+
+Average reaction time per day for 18 subjects in a sleep
 deprivation study, days 0–9. Belenky, G. et al. (2003), Patterns of
 performance degradation and restoration during sleep restriction and
 subsequent recovery, *Journal of Sleep Research* 12, 1–12.
 
-**cbpp.** Serological incidence of contagious bovine pleuropneumonia in 15
+### cbpp
+
+Serological incidence of contagious bovine pleuropneumonia in 15
 herds of zebu cattle in Ethiopia, over four periods. Lesnoff, M. et al.
 (2004), Within-herd spread of contagious bovine pleuropneumonia in Ethiopian
 highlands, *Preventive Veterinary Medicine* 64, 27–40.
