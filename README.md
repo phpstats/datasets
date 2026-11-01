@@ -1,7 +1,7 @@
 # PHPstats datasets
 
 Public datasets that the PHPstats examples and comparisons read by URL, so
-anyone can run them. Each file is a CSV with a header row; `rownames` holds the
+anyone can run them. Each file is a CSV with a header row; where present, `rownames` holds the
 row names the data had in R.
 
 ```php
@@ -16,8 +16,9 @@ $mroz = \Phibble\DataFrame::fromCsv("$data/mroz.csv");
 | [`csv/sleepstudy.csv`](csv/sleepstudy.csv) | 180 | R `lme4` package 2.0.6 (`sleepstudy`) | GPL (≥ 2) |
 | [`csv/cbpp.csv`](csv/cbpp.csv) | 56 | R `lme4` package 2.0.6 (`cbpp`) | GPL (≥ 2) |
 | [`csv/weather.csv`](csv/weather.csv) | 26,115 | R `nycflights13` package (`weather`) | CC0 |
+| [`csv/schools.csv`](csv/schools.csv) | 8 | Rubin (1981), as tabulated in *Bayesian Data Analysis* | Published summary statistics |
 
-The files are copied unchanged from the CSV exports in
+Except `schools.csv`, which is written from its published table, the files are copied unchanged from the CSV exports in
 [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/), maintained by
 Vincent Arel-Bundock. The GPL texts are in [`LICENSES`](LICENSES); `weather` is in the public domain under CC0. The
 data remain under their packages' licenses; this repository adds nothing to
@@ -61,6 +62,15 @@ Hourly weather at the three New York City airports (EWR, JFK, and LGA) in
 visibility, with missing readings left empty. From the Iowa Environmental
 Mesonet, as distributed in `nycflights13` by H. Wickham.
 
+### schools
+
+Estimated effects of a coaching program on SAT-V scores in eight high schools
+(A–H), with their standard errors: `y` is the estimated effect and `sigma` its
+standard error. Rubin, D. B. (1981), Estimation in parallel randomized
+experiments, *Journal of Educational Statistics* 6(4), 377–401; as tabulated
+in Gelman, A. et al., *Bayesian Data Analysis* (3rd ed.), Table 5.2. Written
+out here from the published table; `rownames` is not used for this file.
+
 ## Checksums
 
 SHA-256:
@@ -71,4 +81,5 @@ e7d618f518d247ce0ef29ff551b28d4c2d260faabad4955cf9164f2908fbd0b5  csv/mroz.csv
 20922ddc87d538bf2344f73d49000eeb2d7e14934b6191a3e071fefc329942c4  csv/sleepstudy.csv
 8919ad586aabfa75fa3b3ece7ad7b398c7b31bf17467f17c304cbec86afa910a  csv/cbpp.csv
 e69580cc3c18070692b6bf2f52e890803a313507c23283b15f06dbbae86451cf  csv/weather.csv
+a1c28881a82a652fba1d3afc6254761fa95fd7f16f2ccab1fc7a7075dc8a8a0e  csv/schools.csv
 ```
