@@ -21,10 +21,11 @@ $mroz = \Phibble\DataFrame::fromCsv("$data/mroz.csv");
 | [`csv/penguins.csv`](csv/penguins.csv) | 344 | R `palmerpenguins` package (`penguins`) | CC0 |
 | [`csv/airports.csv`](csv/airports.csv) | 1,458 | R `nycflights13` package (`airports`) | CC0 |
 | [`csv/warpbreaks.csv`](csv/warpbreaks.csv) | 54 | R `datasets` package (`warpbreaks`) | GPL-2 or GPL-3, as part of R |
+| [`csv/gapminder.csv`](csv/gapminder.csv) | 1,704 | R `gapminder` package 1.0.1 (`gapminder`) | CC0 |
 
 Except `schools.csv`, which is written from its published table, the files are copied unchanged from the CSV exports in
 [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/), maintained by
-Vincent Arel-Bundock. The GPL texts are in [`LICENSES`](LICENSES); `weather`, `penguins`, and `airports` are in the public domain under CC0. The
+Vincent Arel-Bundock. The GPL texts are in [`LICENSES`](LICENSES); `weather`, `penguins`, `airports`, and `gapminder` are in the public domain under CC0. The
 data remain under their packages' licenses; this repository adds nothing to
 them.
 
@@ -106,6 +107,12 @@ Number of warp breaks per loom for 54 looms, by wool type (A or B) and tension
 (L, M, or H). Tippett, L. H. C. (1950), *Technological Applications of
 Statistics*, Wiley, p. 106.
 
+### gapminder
+
+Life expectancy, population, and GDP per capita for 142 countries in five continents, every five years from 1952 to
+2007, from the Gapminder Foundation (https://www.gapminder.org/data/). Bryan, J. (2023), gapminder: Data from
+Gapminder, R package version 1.0.1.
+
 ## Checksums
 
 SHA-256:
@@ -120,4 +127,5 @@ a1c28881a82a652fba1d3afc6254761fa95fd7f16f2ccab1fc7a7075dc8a8a0e  csv/schools.cs
 c4c14fd9d1b3466dff2e046627cc32814ab6226c0e228c55f24e896a93a89b1  csv/penguins.csv
 f1c5dba736fa36ecffa93cd0556b9b920a4b1a5e27bbc3ed417f05fa42edf3d6  csv/airports.csv
 82c0482e94a5652b733f38c8fe6fbd18a062d761c4d71137fda63501a934a73f  csv/warpbreaks.csv
+787a909f89c853d2b6ea02106c4e0d8f3f7f0f992ba36149af41c6b31817e425  csv/gapminder.csv
 ```
