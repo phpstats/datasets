@@ -15,6 +15,7 @@ $mroz = \Phibble\DataFrame::fromCsv("$data/mroz.csv");
 | [`csv/mroz.csv`](csv/mroz.csv) | 753 | R `carData` package 3.0-6 (`Mroz`) | GPL (≥ 2) |
 | [`csv/sleepstudy.csv`](csv/sleepstudy.csv) | 180 | R `lme4` package 2.0.6 (`sleepstudy`) | GPL (≥ 2) |
 | [`csv/cbpp.csv`](csv/cbpp.csv) | 56 | R `lme4` package 2.0.6 (`cbpp`) | GPL (≥ 2) |
+| [`csv/insurance.csv`](csv/insurance.csv) | 64 | R `MASS` package 7.3-65 (`Insurance`) | GPL-2 or GPL-3 |
 | [`csv/weather.csv`](csv/weather.csv) | 26,115 | R `nycflights13` package (`weather`) | CC0 |
 | [`csv/schools.csv`](csv/schools.csv) | 8 | Rubin (1981), as tabulated in *Bayesian Data Analysis* | Published summary statistics |
 
@@ -54,6 +55,16 @@ Serological incidence of contagious bovine pleuropneumonia in 15
 herds of zebu cattle in Ethiopia, over four periods. Lesnoff, M. et al.
 (2004), Within-herd spread of contagious bovine pleuropneumonia in Ethiopian
 highlands, *Preventive Veterinary Medicine* 64, 27–40.
+
+### insurance
+
+Car insurance claims made in the third quarter of 1973 by the policyholders of
+an insurance company, by district of residence (4 is the major cities), car
+group, and age group, with the number of policyholders exposed to risk. Baxter,
+L. A., Coutts, S. M. and Ross, G. A. F. (1980), Applications of linear models
+in motor insurance, *Proceedings of the 21st International Congress of
+Actuaries*, Zurich, 11–29. Distributed in `MASS` by W. N. Venables and B. D.
+Ripley.
 
 ### weather
 
